@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+
+
+.profile{
+    width:250px;
+    border-radius:70px;
+    padding-bottom:30px;
+}
+
+#welcome{
+    position:absolute;
+    display:table;
+    width:100%;
+    height:100%;
+    bottom:0;
+    background:linear-gradient(rgb(130, 224, 255) 0%, rgb(164, 84, 240) 100%);
+}
+
+h1{
+    font-family:arial;
+    font-variant:small-caps;
+    font-size:70px;
+}
+
+
+.name{
+    font-size:60px;
+    border-width:0px;
+    background-color:rgb(255, 165, 232);
+    border-style:ridge;
+    border-radius:15px;   
+    padding:10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#bio{
+    padding:80px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.line{
+    width:80;
+    height:5px;
+    margin:8px auto;
+    background-color: rgb(46, 19, 109);
+}
+
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p{
+    font-size:18px;
+    font-family: 'Sofia Sans';
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    width:100%;
+    z-index: 10;
+    cursor: pointer;
+    background-color:lightcoral;
+}
+
+.links{
+    display:inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:20px;
+    font-family: 'Gabarito', cursive;
+}
+
+.links:hover{
+    font-size:25px;
+    text-decoration:underline;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.article{
+    text-decoration: underline;
+    color:blueviolet;
+    font-size: 20px;
+}
+
+#contacts iframe {
+    width:100%;
+}
+
+.contacts1 h3{
+    display:inline;
+}
